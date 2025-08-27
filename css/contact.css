@@ -184,3 +184,17 @@ textarea:hover{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     grid-area: location;
 }
+.buttom-contact{
+    padding: 200px;
+    text-align: center;
+    color: white;
+    height: 30vh;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/img-contact/img-contact-9.png);
+}
+.h1-contact{
+    font-size: 80px;
+    padding-bottom: 50px;
+}
