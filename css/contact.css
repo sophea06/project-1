@@ -17,25 +17,26 @@
     padding: 100px ;
     color: white;
     display: grid;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     align-items: flex-end;
-    background-image:url(../img/img-contact/image-3.png);
+    background-image: url(../img/img-contact/img-contact-8.png);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     grid-area: top-contact;
 }
 .h1-top{
     font-size: 50px;
     padding-bottom: 30px;
-    text-align: right;
+    /* text-align: right; */
 }
 .par-top{
-    text-align: right;
+    /* text-align: right; */
 }
 .form-btn{
     margin-top: 20px;
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     gap: 10px;
 }
 .btn-top{
@@ -58,7 +59,7 @@
     background-color: rgba(0, 0, 0, 0.664);
 }
 .app-contact{
-    margin: 0 100px 100px 100px;
+    margin: 0px 100px 100px 100px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: 
@@ -78,7 +79,7 @@
     padding: 15px;
 }
 .head-contact{
-    padding: 50px;
+    padding: 80px;
     font-size: 40px;
     text-align: center;
     grid-area: head-contact;
