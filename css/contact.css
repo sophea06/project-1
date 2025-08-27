@@ -90,14 +90,14 @@
     /* background: #000; */
     grid-area: address;
 }
-.bxs-map{
+.bxs-map-1{
     color: #CD7F32;
     font-size: 40px;
 }
 .phone{
     grid-area: phone;
 }
-.bxs-phone{
+.bxs-phone-1{
     color: #CD7F32;
     font-size: 40px;
 }
@@ -105,7 +105,7 @@
     width: 300px;
     grid-area: email;
 }
-.bx-envelope{
+.bx-envelope-1{
     color: #CD7F32;
     font-size: 40px;
 }
