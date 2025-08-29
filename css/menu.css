@@ -1,3 +1,41 @@
+.top-contact{
+    height: 45vh;
+    line-height: 1.5em;
+    padding: 100px ;
+    color: white;
+    display: grid;
+    /* justify-content: flex-end; */
+    align-items: flex-end;
+    background-image: url(../img/img-contact/img-contact-2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: top-contact;
+}
+.h1-top{
+    font-size: 80px;
+    padding-bottom: 30px;
+    /* text-align: right; */
+}
+.par-top{
+    /* text-align: right; */
+}
+.form-btn{
+    margin-top: 20px;
+    display: flex;
+    /* justify-content: flex-end; */
+    gap: 10px;
+}
+.btn-top{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50px;
+    width: 130px;
+    margin: 10px 0;
+    padding: 16px;
+    border: none;
+}
 .menu {
     padding: 5rem 0;
     background: #ffffff;
