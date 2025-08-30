@@ -5,6 +5,7 @@
 }
 
 body {
+  height: 100vh;
   font-family: "Source Sans Pro", sans-serif;
   line-height: 1.6;
   color: #374151;
@@ -25,8 +26,8 @@ h3 {
 }
 
 .top-service{
-  height: 60vh;
-  line-height: 1.5em;
+  height: 80vh;
+  /* line-height: 1.5em; */
   padding: 100px;
   color: white;
   display: grid;
@@ -41,7 +42,6 @@ h3 {
 
 .top {
   font-size: 80px;
-  padding-bottom: 30px;
 }
 
 .form-btn {
