@@ -11,7 +11,7 @@ body {
   /* color: #374151; */
   background-color: #f0fdf4;
 }
-.top-menu-1{
+.top-service-1{
   height: 90vh;
   color: white;
   padding: 100px;
@@ -67,23 +67,9 @@ h3 {
   font-family: "Playfair Display", serif;
   font-weight: 700;
 }
-.par-top-menu{
+.par-top-sevice{
   font-size: 20px;
   padding-right: 380px;
-}
-.top-service{
-  height: 80vh;
-  /* line-height: 1.5em; */
-  padding: 100px;
-  color: white;
-  display: grid;
-  /* justify-content: flex-end; */
-  align-items: flex-end;
-  background-image: url(../img/img-contact/image.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  grid-area: top-contact;
 }
 
 .top {
