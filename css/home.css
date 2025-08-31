@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+}
+header{
+    color: white;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/img-home/img-home-1.png)
+}
+.h1-head{
+    font-family: serif;
+    padding: 120px 500px 10px 90px;
+    font-size: 80px;
+}
+.par-head{
+    font-size: 20px;
+    padding: 20px 90px;
+}
+.btn-head{
+    font-weight: bold;
+    /* color: white; */
+    font-size: 20px;
+    margin: 20px 90px;
+    padding: 15px 45px; 
+    border-radius: 50px;
+    border: none;
+    background-color: #ddb892;
+}
+.btn-head:hover{
+    background-color: #c08552;
+}
+.home-info{
+    color: white;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url(../img/img-home/img-home-17.png);
+}
+.h1-info{
+    font-family: serif;
+    padding: 110px 300px 30px 100px;
+    font-size: 40px;
+}
+.hr-home{
+    margin: 0px 100px 20px 100px;
+    width: 50px;
+}
+.par-info{
+    padding: 10px 700px 10px 100px ;
+}
+.btn-info{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 45px;
+    margin: 40px 100px 0 100px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ddb892;
+}
+.btn-info:hover{
+    background-color: #c08552;
+}
+.home-center-info{
+    background-color: #ddb892a1;
+}
+.top-center{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h1-left{
+    font-family: serif;
+    font-size: 50px;
+    padding: 20px 100px;
+}
+.par-left{
+    font-family: serif;
+    font-style: italic;
+    font-size: 20px;
+    padding: 0 100px 30px 100px;
+}
+.btn-info-1{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 45px;
+    margin: 0px 100px 0 100px;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+}
+.btn-info-1:hover{
+    color: white;
+    background: #4B2E2E;
+}
+.card-home{
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+}
+.card-1{
+    margin-bottom: 100px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 15px;
+    background-color: white;
+    width: 90%;
+    transition: transform 0.2s;
+}
+.card-1:hover{
+    color: #000;
+    transform: translateY(-10px);
+}
+.img-card-home{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+.h2-card{
+    font-family: serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+.par-card{
+    font-style: italic;
+    color: #780000;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.import-home{
+    /* padding: 100px; */
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.import-left{
+    margin: 100px 0 100px 100px ;
+    width: 90%;
+}
+.h1-import{
+    font-family: serif;
+    font-size: 40px;
+    padding-bottom: 25px;
+}
+.par-import-1{
+    font-weight: bold;
+    padding-bottom: 30px;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+.par-import{
+    line-height: 1.5em;
+    /* padding-bottom: 20px; */
+    font-size: 18px;
+}
+.import-center{
+    margin: 100px 0px 100px 100px ;
+}
+.img-icon{
+    height: 40px;
+    width: 160px;
+}
+.import-center-1,
+.import-center-2{
+    /* margin-left: -70px; */
+    width: 85%;
+    height: 20vh;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+.import-center-1:hover{
+    transform: translateY(-10px);
+}
+.import-center-2:hover{
+    transform: translateY(-10px);
+}
+.import-right{
+    position: relative;
+    width: 100%;
+    margin: 0px 0 0px 0px ;
+    /* margin-left: 100px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/img-home/img-home-11.png);
+}
+.import-right::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.801);
+    z-index: 1;
+}
+.import-right-1{
+    margin-bottom: 20px;
+    margin-top: 140px;
+    
+}
+.import-right-1,
+.import-right-2{
+    position: relative;
+    z-index: 2;
+    margin-right: 30px;
+    border-radius: 10px;
+    /* margin-top: 150px; */
+    /* margin-left: 10px; */
+    width: 65%;
+    height: 20vh;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+    transition: transform 0.2s;
+}
+.import-right-1:hover{
+    transform: translateY(-10px);
+}
+.import-right-2:hover{
+    transform: translateY(-10px);
+}
+.h2-import{
+    font-family: serif;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 25px;
+}
+.buttom-home{
+    padding: 100px;
+    background-color: #ddb892a1;
+}
+.top-bu{
+    margin-bottom: 50px;
+}
+.h1-bu{
+    font-family: serif;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+.par-bu{
+    font-family: serif;
+    color: rgba(0, 0, 0, 0.637);
+    font-style: italic;
+    font-size: 24px;
+}
+.card-bu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.card-bu-1{
+    background: white;
+    width: 90%;
+    transition: transform 0.2s;
+}
+.card-bu-1:hover{
+    transform: translateY(-10px);
+}
+.btn-bu-card-1{
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/img-home/img-home-14.png);
+}
+.btn-bu-card-2{
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/img-home/img-home-15.png);
+}
+.btn-bu-card-3{
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/img-home/img-home-16.png);
+}
+.h3-bu{
+    padding: 30px;
+    text-align: center;
+}
+.par-bu-1{
+    font-weight: bold;
+    color: gray;
+    /* font-size: 20px; */
+    padding: 20px;
+}
+.par-import{
+    line-height: 1.5em;
+}
+.btn-bu-1{
+    color: white;
+    font-weight: bold;
+    background-color: #4b2e2e8e;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px;
+}
+.btn-bu-1:hover{
+    background-color: #c08552;
+}

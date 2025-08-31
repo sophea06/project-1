@@ -12,25 +12,28 @@
     "grid-footer";
 }
 .top-contact{
-    height: 45vh;
+    height: 50vh;
     line-height: 1.5em;
     padding: 100px ;
     color: white;
     display: grid;
     /* justify-content: flex-end; */
     align-items: flex-end;
-    background-image: url(../img/img-contact/img-contact-8.png);
+    background-image: url(../img/img-contact/img-contact-12.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     grid-area: top-contact;
 }
 .h1-top{
-    font-size: 50px;
+    font-size: 70px;
     padding-bottom: 30px;
+    font-family: serif;
     /* text-align: right; */
 }
 .par-top{
+    font-weight: bold;
+    font-size: 20px;
     /* text-align: right; */
 }
 .form-btn{
@@ -79,8 +82,9 @@
     padding: 15px;
 }
 .head-contact{
+    font-family: serif;
     padding: 80px;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     grid-area: head-contact;
 }
@@ -90,14 +94,14 @@
     /* background: #000; */
     grid-area: address;
 }
-.bxs-map{
+.bxs-map-1{
     color: #CD7F32;
     font-size: 40px;
 }
 .phone{
     grid-area: phone;
 }
-.bxs-phone{
+.bxs-phone-1{
     color: #CD7F32;
     font-size: 40px;
 }
@@ -105,7 +109,7 @@
     width: 300px;
     grid-area: email;
 }
-.bx-envelope{
+.bx-envelope-1{
     color: #CD7F32;
     font-size: 40px;
 }
@@ -183,4 +187,19 @@ textarea:hover{
     /* transition: all 0.3s ease-in-out; */
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     grid-area: location;
+}
+.buttom-contact{
+    padding: 200px;
+    text-align: center;
+    color: white;
+    height: 30vh;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/img-contact/img-contact-13.png);
+}
+.h1-contact{
+    font-family: serif;
+    font-size: 80px;
+    padding-bottom: 30px;
 }
