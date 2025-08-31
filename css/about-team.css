@@ -9,21 +9,21 @@ body {
 .head-our-team {
   color: white;
   padding: 100px;
-  height: 50vh;
+  height: 70vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(../img/img-about-team/img-our-5.png);
 }
 .h1-head {
-  padding-top: 40px;
+  margin-top: 120px;
   font-family: serif;
-  font-size: 60px;
+  font-size: 70px;
 }
 .par-head {
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   line-height: 1.5em;
-  padding-top: 10px;
+  padding-top: 30px;
   font-size: 20px;
   padding-right: 400px;
 }
