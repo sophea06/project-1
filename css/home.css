@@ -8,7 +8,7 @@ body{
 }
 header{
     color: white;
-    height: 90vh;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -16,7 +16,7 @@ header{
 }
 .h1-head{
     font-family: serif;
-    padding: 120px 500px 10px 90px;
+    padding: 190px 500px 10px 90px;
     font-size: 80px;
 }
 .par-head{
@@ -38,7 +38,7 @@ header{
 }
 .home-info{
     color: white;
-    height: 100vh;
+    height: 90vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
