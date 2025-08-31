@@ -9,13 +9,14 @@ body{
 .header{
     padding: 100px;
     color: white;
-    height: 60vh;
+    height: 70vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../img/img-about/img-about-2.png);
 }
 .h1-head{
+    padding-top: 125px;
     font-family: serif;
     padding-bottom: 30px;
     font-size: 70px;
