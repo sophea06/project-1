@@ -1,93 +1,163 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.footer{
-    padding: 30px 50px;
-    height: 60vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(../img/img-footer/footer-3.png);
-    /* background-color: aliceblue; */
-    display: grid;
-    grid-template-columns: 1fr;
-    /* align-items: center; */
-    justify-content: space-between;
+.footer {
+  padding: 30px 50px;
+  height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/img-footer/footer-3.png);
+  /* background-color: aliceblue; */
+  display: grid;
+  grid-template-columns: 1fr;
+  /* align-items: center; */
+  justify-content: space-between;
 }
-.main-footer{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+.main-footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
-.logo-footer{
-    width: 90px;
+.logo-footer {
+  width: 90px;
 }
 .center-footer-left,
 .center-footer-right,
 .footer-right,
-.footer-left{
-    color: white;
-    margin: 30px;
-    /* font-size: 18px; */
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.footer-left {
+  color: white;
+  margin: 30px;
+  /* font-size: 18px; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
-.footer-right{
-    margin-left: -20px;
+.footer-right {
+  margin-left: -20px;
 }
-.icon-footer-1{
-
-    font-size: 20px;
+.icon-footer-1 {
+  font-size: 20px;
 }
-.bx{
-    font-size: 20px;
-    /* margin-right: 10px; */
+.bx {
+  font-size: 20px;
+  /* margin-right: 10px; */
 }
-.h3-footer{
-    font-size: 25px;
+.h3-footer {
+  font-size: 25px;
 }
 .bxl-linkedin-square,
 .bxl-instagram,
 .bxl-twitter,
-.bxl-facebook-circle{
-    font-weight: bold;
-    font-size: 24px;
-    margin-top: 20px;
-    margin-right: 5px;
-    border-radius: 50%;
-    border: 1px solid white;
-    /* background: #000; */
-    padding: 10px;
-    transition: transform 0.2s;
+.bxl-facebook-circle {
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 20px;
+  margin-right: 5px;
+  border-radius: 50%;
+  border: 1px solid white;
+  /* background: #000; */
+  padding: 10px;
+  transition: transform 0.2s;
 }
-.bxl-linkedin-square:hover{
-    color: #000;
-    transform: translateY(-10px);
+.bxl-linkedin-square:hover {
+  color: #000;
+  transform: translateY(-10px);
 }
-.bxl-instagram:hover{
-    color: #000;
-    transform: translateY(-10px);
+.bxl-instagram:hover {
+  color: #000;
+  transform: translateY(-10px);
 }
-.bxl-twitter:hover{
-    color: #000;
-    transform: translateY(-10px);
+.bxl-twitter:hover {
+  color: #000;
+  transform: translateY(-10px);
 }
-.bxl-facebook-circle:hover{
-    color: #000;
-    transform: translateY(-10px);
+.bxl-facebook-circle:hover {
+  color: #000;
+  transform: translateY(-10px);
 }
-hr{
-    color: black;
-    width: 100%;
+hr {
+  color: black;
+  width: 100%;
 }
-.copyright{
-    color: white;
-    padding-top: 10px;
-    text-align: right;
+.copyright {
+  color: white;
+  padding-top: 10px;
+  text-align: right;
 }
 
-.footer-1{
+.footer-1 {
   height: 72vh;
+}
+@media (min-width: 768px) and (max-width: 840px) {
+  .footer {
+    padding-top: 50px;
+    height: 50vh;
+    margin: 0;
+    padding: 0;
+  }
+  .main-footer {
+    padding: 50px 0 0 0;
+    margin: 0;
+  }
+  .bxl-linkedin-square,
+  .bxl-instagram,
+  .bxl-twitter,
+  .bxl-facebook-circle {
+    padding: 6px;
+    font-size: 18px;
+  }
+  .copyright {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-right: 50px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 600px){
+.footer{
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0px 0 0 0;
+}
+.copyright{
+    margin-bottom: 50px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+.main-footer{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "footer-left footer-left footer-left"
+    "center-footer-left center-footer-right footer-right";
+    /* "center-footer-right footer-right"; */
+}
+.footer-left{
+    grid-area: footer-left;
+}
+.center-footer-left{
+    margin-left: 15px;
+    grid-area: center-footer-left;
+}
+.center-footer-right{
+    margin-left: -15px;
+    text-align: center;
+    grid-area: center-footer-right;
+}
+.footer-right{
+    margin-right: -10px;
+    grid-area: footer-right;
+}
+.h3-footer{
+    font-size: 18px;
+}
+.bx{
+    font-size: 14px;
+}
 }
