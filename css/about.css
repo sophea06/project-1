@@ -202,3 +202,93 @@ body{
 .btn-bu:hover{
     background-color: #772f1a;
 }
+/* =======table============ */
+@media (min-width: 768px) and (max-width: 840px){
+.header{
+    height: 60vh;
+    width: 100%;
+}
+.h1-head{
+    font-size: 70px;
+    padding-top: 200px;
+}
+.par-head{
+    padding-bottom: 30px;
+    padding-top: 20px;
+    font-size: 24px;
+}
+.btn-read{
+    font-size: 24px;
+}
+.info-shop{
+    margin: 0;
+    padding: 100px 0;
+}
+.info-shop-top{
+    margin: 0;
+    padding: 0;
+   width: 95%;
+}
+.img-info{
+    padding: 100px 0 0 80px;
+    margin: 0;
+}
+.par-info{
+    font-size: 20px;
+}
+.btn-info{
+    margin-top: 20px;
+}
+.value-shop{
+    margin: 0;
+    padding: 100px 0;
+}
+.img-value{
+    padding-left: 30px;
+    width: 90%;
+}
+.text-value{
+    margin: 0;
+    padding: 0;
+}
+.par-value{
+    font-size: 20px;
+}
+.buttom-about{
+    /* height: 50vh; */
+    padding-bottom: 100px;
+}
+.parent{
+    margin-left: 100px;
+    height: 50vh;
+}
+.img-bu{
+    height: 50vh;
+}
+.right-bu{
+    margin: 0;
+    padding: 0;
+}
+.h1-bu{
+    padding-top: -30px;
+    padding-left: 30px;
+    font-size: 40px;
+}
+.par-bu{
+    font-size: 20px;
+    padding-left: 30px;
+}
+.btn-bu{
+    margin-left: 30px;
+}
+.par-his-3{
+    font-size: 20px;
+}
+.par-his-1{
+    font-size: 30px;
+}
+}
+/* =========phone=========== */
+@media (min-width: 300px) and (max-width: 600px){
+
+}
