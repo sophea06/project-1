@@ -320,3 +320,127 @@ header{
 .btn-bu-1:hover{
     background-color: #c08552;
 }
+/* ============table=========== */
+@media (min-width: 768px) and (max-width: 840px){
+
+/* =======header======== */
+header{
+    height: 70vh;
+}
+.h1-head{
+    /* margin: 100px 0 0 0; */
+    margin: 0;
+    padding: 300px 100px 0 80px;
+    font-size: 60px
+}
+/* ============home-info=========== */
+.home-info{
+    height: 60vh;
+    margin: 0;
+    padding: 0;
+}
+.h1-info{
+    font-size: 45px;
+    margin: 0;
+    padding: 120px 0 30px 100px;
+}
+.par-info{
+    /* margin: 0; */
+    padding: 8px 80px 20px 100px;
+    font-size: 20px;
+}
+.card-home{
+    margin: 50px 0 0 10px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.home-center-info{
+    margin: 0;
+    padding: 0;
+}
+.top-center{
+    margin: 0;
+    padding: 80px 0 0 0;
+}
+.h1-left{
+    /* margin: 0; */
+    padding: 0px 0 20px 50px;
+    font-size: 43px;
+}
+.par-left{
+    font-size: 24px;
+    padding: 0 0 0 50px;
+}
+.btn-info-1{
+    margin: 0 50px 0 0;
+}
+.top-bu{
+    padding-top: 80px;
+    padding-left: 80px;
+}
+.par-bu{
+    font-size: 30px;
+}
+.buttom-home{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.card-bu{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 100px;
+    display: grid;
+    gap: 20px;
+}
+.card-bu-1{
+    height: 45vh;
+    width: 100%;
+}
+.import-home{
+    padding: 70px 0 100px 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "import-left import-left"
+    "import-center import-right";
+    /* padding: 100px 0 0 0; */
+}
+.import-left{
+    padding-bottom: 34px;
+    text-align: center;
+    margin: 0;
+    /* padding: 100px 20px 0 20px; */
+    grid-area: import-left;
+}
+.import-center{
+    margin: 0;
+    padding: 30px 10px 0 30px;
+    grid-area: import-center;
+}
+.import-center-1,
+.import-center-2{
+    height: 12vh;
+}
+.import-right{
+    margin-top: -70px;
+    /* padding: 30px 10px 400px 10px; */
+    background: none;
+    grid-area: import-right;
+}
+.import-right-1,
+.import-right-2{
+    width: 80%;
+    height: 12vh;
+}
+.par-import-3,
+.par-import-1{
+    display: none;
+}
+}
+/* ======Mobile=========== */
+@media (min-width: 300px) and (max-width: 600px){
+
+}
