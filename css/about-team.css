@@ -89,8 +89,8 @@ body {
 .bxl-instagram-alt,
 .bxl-telegram,
 .bxl-youtube,
-.bx-envelope,
-.bxs-phone,
+.bx-envelope-2,
+.bxs-phone-2,
 .bx-link,
 .bx-stamp{
     margin-right: 10px;
@@ -99,7 +99,35 @@ body {
     border-radius: 8px;
     border: 1px solid #dda15e;
     /* background: #000; */
-    font-size: 30px;
+    font-size: 20px;
+    transition: transform 0.2s;
+}
+.bxl-facebook:hover{
+  transform: translateY(-10px);
+}
+.bxl-linkedin:hover{
+  transform: translateY(-10px);
+}
+.bxl-instagram-alt:hover{
+  transform: translateY(-10px);
+}
+.bxl-telegram:hover{
+  transform: translateY(-10px);
+}
+.bxl-youtube:hover{
+  transform: translateY(-10px);
+}
+.bx-envelope-2:hover{
+  transform: translateY(-10px);
+}
+.bxs-phone-2:hover{
+  transform: translateY(-10px);
+}
+.bx-link:hover{
+  transform: translateY(-10px);
+}
+.bx-stamp:hover{
+  transform: translateY(-10px);
 }
 .icon-socail{
     padding-top: 40px;
@@ -115,4 +143,100 @@ body {
 .par-web-1,
 .par-exper-1{
     font-weight: bold;
+}
+.exper{
+  padding: 0 100px 100px 100px;
+}
+.h1-exper{
+  padding-bottom: 20px;
+  font-family: serif;
+  font-size: 40px;
+}
+.par-exper{
+  padding-bottom: 10px;
+  line-height: 1.5em;
+}
+.work-expert{
+  padding: 0 100px 100px 100px;
+  display: grid;
+  gap: 70px;
+  grid-template-columns: 1fr;
+}
+.top-exper,
+.buttom-exper{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.img-exper{
+  border-radius: 100%;
+  height: 15vh;
+  width: 100px;
+  transition: transform 0.2s;
+}
+.img-exper:hover{
+  transform: translateY(-10px);
+}
+.right-buttom,
+.left-buttom,
+.right-top,
+.left-top{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.par-bu{
+  padding-right: 50px;
+  line-height: 1.5em;
+}
+.h2-bu{
+  font-family: serif;
+  padding-bottom: 10px;
+}
+.info-team{
+  /* text-align: center; */
+  padding: 0 100px 100px 100px;
+  display: grid;
+  gap: 30px;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+}
+.img-team{
+  height: 60vh;
+  width: 100%;
+}
+.info-rika,
+.info-phea,
+.info-ka-ka{
+  border-radius: 10px;
+  height: 100vh;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: transform 0.2s;
+}
+.info-ka-ka:hover{
+  transform: translateY(-10px);
+}
+.info-rika:hover{
+  transform: translateY(-10px);
+}
+.info-phea:hover{
+  transform: translateY(-10px);
+}
+.h2-name{
+  color: #bc6c25;
+  padding: 20px 30px;
+  font-family: serif;
+}
+.h3-name{
+  padding: 0 30px 10px 30px;
+}
+.par-name{
+  color: gray;
+  line-height: 1.4em;
+  padding: 0 10px 0 30px ;
+}
+.contact-team{
+  padding-bottom: 30px;
+  padding-top: 15px;
+  text-align: center;
 }
