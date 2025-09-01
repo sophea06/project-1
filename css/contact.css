@@ -12,12 +12,10 @@
     "grid-footer";
 }
 .top-contact{
-    height: 50vh;
-    line-height: 1.5em;
+    height: 70vh;
     padding: 100px ;
     color: white;
     display: grid;
-    /* justify-content: flex-end; */
     align-items: flex-end;
     background-image: url(../img/img-contact/img-contact-12.png);
     background-size: cover;
@@ -26,20 +24,21 @@
     grid-area: top-contact;
 }
 .h1-top{
+    margin-top: 50px;
     font-size: 70px;
-    padding-bottom: 30px;
+    /* padding-top: 30px; */
     font-family: serif;
-    /* text-align: right; */
 }
 .par-top{
+    margin-top: -10px;
+    line-height: 1.5em;
+    padding-right: 650px;
     font-weight: bold;
     font-size: 20px;
-    /* text-align: right; */
 }
 .form-btn{
-    margin-top: 20px;
+    margin-bottom: 50px;
     display: flex;
-    /* justify-content: flex-end; */
     gap: 10px;
 }
 .btn-top{

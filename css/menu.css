@@ -1,6 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .top-menu{
-    height: 50vh;
-    line-height: 1.5em;
+    height: 70vh;
     padding: 100px ;
     color: white;
     display: grid;
@@ -10,18 +14,22 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    grid-area: top-contact;
 }
-.h1-top{
+.h1-top-menu{
+    padding-bottom: 50px;
+    margin-top: 70px;
+    font-family: serif;
     font-size: 80px;
-    padding-bottom: 30px;
-    /* text-align: right; */
 }
-.par-top{
-    /* text-align: right; */
+.par-top-menu{
+    line-height: 1.5em;
+    padding-right: 400px;
+    font-size: 20px;
 }
-.form-btn{
-    margin-top: 20px;
+.form-btn-menu{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    /* margin-top: 20px; */
     display: flex;
     /* justify-content: flex-end; */
     gap: 10px;
@@ -42,8 +50,9 @@
 }
 
 .section-title {
+    font-family: serif;
     padding-bottom: 50px;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
 }
 
