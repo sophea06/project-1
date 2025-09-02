@@ -16,13 +16,13 @@ body{
     background-image: url(../img/img-about/img-about-2.png);
 }
 .h1-head{
-    padding-top: 125px;
+    padding-top: 100px;
     font-family: serif;
     padding-bottom: 30px;
     font-size: 70px;
 }
 .par-head{
-    padding-right: 400px;
+    padding-right: 200px;
     padding-bottom: 20px;
     line-height: 1.5em;
     font-size: 20px;
@@ -204,17 +204,17 @@ body{
 }
 /* =======table============ */
 @media (min-width: 768px) and (max-width: 840px){
-.header{
+.header-1{
+    margin: 0;
+    padding: 0 0 0 100px;
     height: 60vh;
     width: 100%;
 }
 .h1-head{
     font-size: 70px;
-    padding-top: 200px;
+    padding-top: 220px;
 }
 .par-head{
-    padding-bottom: 30px;
-    padding-top: 20px;
     font-size: 24px;
 }
 .btn-read{
@@ -230,7 +230,7 @@ body{
    width: 95%;
 }
 .img-info{
-    padding: 100px 0 0 80px;
+    padding: 90px 0 0 60px;
     margin: 0;
 }
 .par-info{
@@ -275,6 +275,7 @@ body{
     font-size: 40px;
 }
 .par-bu{
+    margin: 0;
     font-size: 20px;
     padding-left: 30px;
 }
@@ -286,6 +287,13 @@ body{
 }
 .par-his-1{
     font-size: 30px;
+}
+.history-shop{
+    margin: 0;
+    padding: 100px 0;
+}
+.left-history{
+    padding-left: 50px;
 }
 }
 /* =========phone=========== */
