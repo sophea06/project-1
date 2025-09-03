@@ -40,7 +40,7 @@
 }
 
 .btn-top {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
     border-radius: 50px;
@@ -49,7 +49,13 @@
     padding: 16px;
     border: none;
 }
+.btn-top-1:hover{
+  background-color: #e36414;
+}
+.btn-top-2:hover{
+  background-color: #db7c26;
 
+}
 .menu {
     padding: 5rem 0;
     background: #ffffff;
@@ -110,22 +116,22 @@
 }
 
 @media (min-width: 768px) and (max-width: 840px) {
-    .h1-top-menu {
-        padding-bottom: 20px;
-        margin-top: 50px;
+    .top-menu{
+        margin: 0;
+        padding: 0;
+        height: 60vh;
     }
-
-    .par-top-menu {
-        line-height: 1.5em;
-        padding-right: 300px;
-        font-size: 30px;
+    .h1-top-menu{
+        font-size: 80px;
+        padding-left: 90px;
+        padding-top: 150px;
     }
-
-    .form-btn-menu {
-        gap: 30px;
-        width: 150px;
+    .par-top-menu{
+        padding-left: 90px;
     }
-
+    .form-btn-menu{
+        padding-left: 90px;
+    }
     .footer {
         padding: 30px 50px;
         height: 50vh;
@@ -156,66 +162,26 @@
 }
 
 @media (min-width: 300px) and (max-width: 600px) {
-    .navbar {
-        width: 100%;
-        background: #4b2e2eb6;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        z-index: 1;
-    }
-
-    .logo {
-        margin-left: 20px;
-        width: 70px;
-    }
-
-    ul {
-        overflow: hidden;
-        font-size: 10px;
-        font-weight: bold;
-        margin-right: 20px;
-        display: flex;
-        gap: 20px;
-    }
-
-    li {
-        list-style: none;
-    }
-
-    .top-menu {
-        height: 70vh;
-        padding: 10px;
-    }
-
-    .h1-top-menu {
-        padding-bottom: 30px;
-        margin-top: 70px;
-        font-size: 60px;
-    }
-
-    .par-top-menu {
-        line-height: 1.5em;
-        padding-right: 200px;
-        font-size: 20px;
-    }
-
-    .form-btn-menu {
-        margin-top: 50px;
-        margin-bottom: 100px;
-
-    }
-    .buttom-contact h1,h2{
-        /* padding: 20px; */
-        height: 30vh;
-        font-size: 10px;
-        text-decoration: none;
-    }
-
-    .h1-contact {
-        font-family: serif;
-        font-size: 10px;
-        padding-bottom: 20px;
-    }
+.top-menu{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 64vh;
+}
+.par-top-menu{
+    /* color: #db7c26; */
+    padding-bottom: 20px;
+    margin-top: -20px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+.h1-top-menu{
+    font-size: 50px;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.form-btn-menu{
+    margin-top: -1px;
+    padding-left: 30px;
+}
 }
