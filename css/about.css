@@ -71,7 +71,7 @@ body{
     /* grid-template-columns: 1fr; */
 }
 .info-shop-top{
-    margin-left: -120px;
+    margin-left: -80px;
 }
 .par-info{
     padding-right: 40px;
@@ -84,7 +84,7 @@ body{
     border: none;
     border-radius: 50px;
     font-size: 18px;
-    margin-top: 10px;
+    margin-top: 30px;
     padding: 15px 30px;
 }
 .btn-info:hover{
@@ -298,5 +298,105 @@ body{
 }
 /* =========phone=========== */
 @media (min-width: 300px) and (max-width: 600px){
-
+.header-1{
+    height: 64vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.par-head{ 
+    margin-left: 20px;
+    padding: 0;
+}
+.h1-head{
+    margin-left: 20px;
+    font-size: 50px;
+}
+.btn-read{
+    margin-left: 20px;
+}
+.info-shop{
+    padding: 100px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.info-shop-top{
+    margin: 20px ;
+    padding: 0;
+}
+.value-shop{
+    margin: 0;
+    padding: 100px 20px 100px 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.img-value{
+    margin-bottom: 20px;
+    margin-left: 5px;
+    width: 100%;
+}
+.text-value{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.history-shop{
+    padding: 100px 0 100px 100px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.right-history{
+    padding-top: 20px;
+    padding-left: 70px;
+}
+.par-his-2{
+    font-size: 21px;
+    padding: 0 30px 0 0;
+}
+.par-his-3{
+    font-size: 17px;
+    padding: 10px 20px 0 0;
+}
+.par-value{
+    padding: 0 0px 0 20px;
+}
+.par-value-1{
+    padding-bottom: 20px;
+}
+.par-info{
+    padding: 0;
+}
+.buttom-about{
+    margin: 0;
+    padding: 0px 20px 100px 20px;
+}
+.parent{
+    height: 98  vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.img-bu{
+    height: 40vh;
+    width: 100%;
+}
+.h1-bu{
+    text-align: center;
+    font-size: 40px;
+    padding: 20px 24px 20px 0;
+    margin: 0;
+    margin-left: -50px;
+}
+.par-bu{
+    margin: 0;
+    padding: 0 30px 0 0;
+    margin-left: -50px;
+}
+.btn-bu{
+    margin-left: -50px;
+    margin-bottom: 30px;
+}
 }

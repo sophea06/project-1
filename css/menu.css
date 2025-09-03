@@ -1,11 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-.top-menu{
+
+.top-menu {
     height: 70vh;
-    padding: 100px ;
+    padding: 100px;
     color: white;
     display: grid;
     /* justify-content: flex-end; */
@@ -15,18 +16,21 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-.h1-top-menu{
+
+.h1-top-menu {
     padding-bottom: 50px;
     margin-top: 70px;
     font-family: serif;
     font-size: 80px;
 }
-.par-top-menu{
+
+.par-top-menu {
     line-height: 1.5em;
     padding-right: 400px;
     font-size: 20px;
 }
-.form-btn-menu{
+
+.form-btn-menu {
     margin-top: 50px;
     margin-bottom: 100px;
     /* margin-top: 20px; */
@@ -34,8 +38,9 @@
     /* justify-content: flex-end; */
     gap: 10px;
 }
-.btn-top{
-    font-size: 16px;
+
+.btn-top {
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
     border-radius: 50px;
@@ -43,6 +48,13 @@
     margin: 10px 0;
     padding: 16px;
     border: none;
+}
+.btn-top-1:hover{
+  background-color: #e36414;
+}
+.btn-top-2:hover{
+  background-color: #db7c26;
+
 }
 .menu {
     padding: 5rem 0;
@@ -101,4 +113,75 @@
     font-size: 1.2rem;
     font-weight: 600;
     color: #84cc16;
+}
+
+@media (min-width: 768px) and (max-width: 840px) {
+    .top-menu{
+        margin: 0;
+        padding: 0;
+        height: 60vh;
+    }
+    .h1-top-menu{
+        font-size: 80px;
+        padding-left: 90px;
+        padding-top: 150px;
+    }
+    .par-top-menu{
+        padding-left: 90px;
+    }
+    .form-btn-menu{
+        padding-left: 90px;
+    }
+    .footer {
+        padding: 30px 50px;
+        height: 50vh;
+
+    }
+
+    .main-footer {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .footer-left {
+        color: white;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-right {
+        margin-left: -30px;
+    }
+
+    .icon-footer-1 {
+        font-size: 30px;
+    }
+
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+.top-menu{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 64vh;
+}
+.par-top-menu{
+    /* color: #db7c26; */
+    padding-bottom: 20px;
+    margin-top: -20px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+.h1-top-menu{
+    font-size: 50px;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.form-btn-menu{
+    margin-top: -1px;
+    padding-left: 30px;
+}
 }
