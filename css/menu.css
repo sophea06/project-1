@@ -1,11 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-.top-menu{
+
+.top-menu {
     height: 70vh;
-    padding: 100px ;
+    padding: 100px;
     color: white;
     display: grid;
     /* justify-content: flex-end; */
@@ -15,18 +16,21 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-.h1-top-menu{
+
+.h1-top-menu {
     padding-bottom: 50px;
     margin-top: 70px;
     font-family: serif;
     font-size: 80px;
 }
-.par-top-menu{
+
+.par-top-menu {
     line-height: 1.5em;
     padding-right: 400px;
     font-size: 20px;
 }
-.form-btn-menu{
+
+.form-btn-menu {
     margin-top: 50px;
     margin-bottom: 100px;
     /* margin-top: 20px; */
@@ -34,7 +38,8 @@
     /* justify-content: flex-end; */
     gap: 10px;
 }
-.btn-top{
+
+.btn-top {
     font-size: 16px;
     font-weight: bold;
     text-align: center;
@@ -44,6 +49,7 @@
     padding: 16px;
     border: none;
 }
+
 .menu {
     padding: 5rem 0;
     background: #ffffff;
@@ -101,4 +107,115 @@
     font-size: 1.2rem;
     font-weight: 600;
     color: #84cc16;
+}
+
+@media (min-width: 768px) and (max-width: 840px) {
+    .h1-top-menu {
+        padding-bottom: 20px;
+        margin-top: 50px;
+    }
+
+    .par-top-menu {
+        line-height: 1.5em;
+        padding-right: 300px;
+        font-size: 30px;
+    }
+
+    .form-btn-menu {
+        gap: 30px;
+        width: 150px;
+    }
+
+    .footer {
+        padding: 30px 50px;
+        height: 50vh;
+
+    }
+
+    .main-footer {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .footer-left {
+        color: white;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-right {
+        margin-left: -30px;
+    }
+
+    .icon-footer-1 {
+        font-size: 30px;
+    }
+
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+    .navbar {
+        width: 100%;
+        background: #4b2e2eb6;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        z-index: 1;
+    }
+
+    .logo {
+        margin-left: 20px;
+        width: 70px;
+    }
+
+    ul {
+        overflow: hidden;
+        font-size: 10px;
+        font-weight: bold;
+        margin-right: 20px;
+        display: flex;
+        gap: 20px;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    .top-menu {
+        height: 70vh;
+        padding: 10px;
+    }
+
+    .h1-top-menu {
+        padding-bottom: 30px;
+        margin-top: 70px;
+        font-size: 60px;
+    }
+
+    .par-top-menu {
+        line-height: 1.5em;
+        padding-right: 200px;
+        font-size: 20px;
+    }
+
+    .form-btn-menu {
+        margin-top: 50px;
+        margin-bottom: 100px;
+
+    }
+    .buttom-contact h1,h2{
+        /* padding: 20px; */
+        height: 30vh;
+        font-size: 10px;
+        text-decoration: none;
+    }
+
+    .h1-contact {
+        font-family: serif;
+        font-size: 10px;
+        padding-bottom: 20px;
+    }
 }
