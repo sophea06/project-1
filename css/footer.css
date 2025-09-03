@@ -101,6 +101,10 @@ hr {
     padding: 50px 0 0 0;
     margin: 0;
   }
+  .h3-footer{
+    font-size: 24px;
+    /* text-align: center; */
+  }
   .bxl-linkedin-square,
   .bxl-instagram,
   .bxl-twitter,
@@ -112,6 +116,9 @@ hr {
     font-size: 20px;
     padding-top: 20px;
     padding-right: 50px;
+  }
+  .footer-right{
+    margin-right: -10px;
   }
 }
 
@@ -136,28 +143,30 @@ hr {
     grid-template-areas: 
     "footer-left footer-left footer-left"
     "center-footer-left center-footer-right footer-right";
-    /* "center-footer-right footer-right"; */
 }
 .footer-left{
     grid-area: footer-left;
 }
 .center-footer-left{
-    /* margin-left: 15px; */
+    margin-left: 10px;
     grid-area: center-footer-left;
 }
 .center-footer-right{
-    /* margin-left: -15px; */
+    margin-left: -20px;
     text-align: center;
     grid-area: center-footer-right;
 }
 .footer-right{
-    /* margin-right: -10px; */
+    margin-right: -5px;
     grid-area: footer-right;
 }
 .h3-footer{
-    /* font-size: 14px; */
+    font-size: 18px;
+}
+.par-footer{
+    line-height: 1.5em;
 }
 .bx{
-    /* font-size: 14px; */
+    font-size: 15px;
 }
 }
