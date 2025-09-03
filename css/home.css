@@ -460,17 +460,17 @@ header{
   }
 
   .h1-head {
-    font-size: 24px;
+    font-size: 50px;
     padding: 30px 10px 15px 10px;
   }
 
   .par-head {
-    font-size: 14px;
+    font-size: 20px;
     padding: 5px 10px;
   }
 
   .btn-head {
-    font-size: 14px;
+    font-size: 15px;
     padding: 10px 20px;
     margin: 15px auto;
     display: block;
@@ -483,7 +483,7 @@ header{
   }
 
   .h1-info {
-    font-size: 20px;
+    font-size: 30px;
     padding: 15px 10px;
   }
 
@@ -493,7 +493,7 @@ header{
   }
 
   .btn-info {
-    font-size: 14px;
+    font-size: 15px;
     padding: 10px 20px;
     margin: 15px auto;
     display: block;
@@ -505,19 +505,19 @@ header{
   }
 
   .h1-left {
-    font-size: 20px;
+    font-size: 30px;
     padding: 10px;
   }
 
   .par-left {
-    font-size: 14px;
+    font-size: 15px;
     padding: 5px 10px 10px 10px;
   }
 
   .btn-info-1 {
     margin: 15px auto;
     display: block;
-    font-size: 14px;
+    font-size: 15px;
     padding: 10px 20px;
   }
 
@@ -534,38 +534,56 @@ header{
 
   .import-home {
     grid-template-columns: 1fr;
-    padding: 10px;
+    /* padding: 10px; */
   }
 
   .import-left,
   .import-center,
   .import-right {
     width: 100%;
-    margin: 15px auto;
+    margin: 0;
+    /* margin: 15px auto; */
   }
 
   .import-center-1,
   .import-center-2,
   .import-right-1,
   .import-right-2 {
-    width: 100%;
-    height: auto;
-    flex-direction: column;
-    text-align: center;
-    padding: 10px;
+    margin: 10px;
+    width: 85%;
+    height: 15vh;
   }
-
+   .import-left{
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 40px;
+    margin: 0;
+   }
+   .par-import-1,
+   .par-import-3{
+    margin-right: 30px;
+   }
+  .import-center{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .import-right{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
   .buttom-home {
     padding: 30px 15px;
     text-align: center;
   }
 
   .h1-bu {
-    font-size: 24px;
+    font-size: 40px;
   }
 
   .par-bu {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .card-bu {
@@ -581,4 +599,8 @@ header{
     font-size: 14px;
     padding: 8px 15px;
   }
+  .h1-import{
+    text-align: center;
+  }
+  
 }

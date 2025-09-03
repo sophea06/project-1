@@ -11,7 +11,7 @@ body {
   /* color: #374151; */
   background-color: #f0fdf4;
 }
-.top-service-1{
+.top-service-1 {
   height: 100vh;
   color: white;
   padding: 100px;
@@ -20,11 +20,11 @@ body {
   background-size: cover;
   background-image: url(../img/img-service/img-service-3.png);
 }
-.h1-top{
+.h1-top {
   font-size: 80px;
   padding-top: 0px;
 }
-.btn-top-4{
+.btn-top-4 {
   margin-top: 30px;
   font-size: 20px;
   padding: 16px;
@@ -32,10 +32,10 @@ body {
   text-align: center;
   color: white;
   background: #bc6c25;
-  border:none;
+  border: none;
   border-radius: 50px;
 }
-.btn-top-3{
+.btn-top-3 {
   margin-top: 30px;
   font-size: 20px;
   padding: 16px;
@@ -43,17 +43,16 @@ body {
   text-align: center;
   color: white;
   background: #000000a9;
-  border:2px solid orange;
+  border: 2px solid orange;
   border-radius: 50px;
 }
-.btn-top-3:hover{
+.btn-top-3:hover {
   background-color: #e36414;
 }
-.btn-top-4:hover{
+.btn-top-4:hover {
   background-color: #db7c26;
-
 }
-.h1-seevice{
+.h1-seevice {
   font-size: 50px;
   padding-bottom: 50px;
   font-family: serif;
@@ -71,7 +70,7 @@ h3 {
   font-family: "Playfair Display", serif;
   font-weight: 700;
 }
-.par-top-sevice{
+.par-top-sevice {
   font-size: 20px;
   padding-right: 380px;
 }
@@ -195,7 +194,7 @@ h3 {
   transform: translateY(-2px);
 }
 
-.buttom-service{
+.buttom-service {
   text-align: center;
   color: white;
   padding: 200px;
@@ -205,15 +204,15 @@ h3 {
   background-size: cover;
   background-image: url(../img/img-contact/img-contact-13.png);
 }
-.h1-bu-service{
+.h1-bu-service {
   margin-top: -50px;
   font-size: 80px;
   font-family: serif;
 }
-.h2-bu{
-  font-family: Arial, Helvetica, sans-serif; 
+.h2-bu {
+  font-family: Arial, Helvetica, sans-serif;
 }
-.footer-service{
+.footer-service {
   padding: 0px 50px;
   height: 80vh;
   background-position: center;
@@ -221,72 +220,75 @@ h3 {
   background-size: cover;
   background-image: url(../img/img-footer/footer-3.png);
 }
-@media (min-width: 768px) and (max-width: 840px){
-.top-service-1{
-  height: 60vh;
+@media (min-width: 768px) and (max-width: 840px) {
+  .top-service-1 {
+    height: 60vh;
+  }
+  .h1-top {
+    padding: 50px 0 0 0;
+    /* padding-top: -200px; */
+  }
+  .par-top-sevice {
+    padding: 0;
+  }
+  .buttom-service {
+    height: 40vh;
+    margin: 0;
+    padding: 0;
+  }
+  .h1-bu-service {
+    padding: 100px 0 0 0;
+    margin: 0;
+  }
+  .h2-bu {
+    padding: 0;
+    margin: 0;
+  }
+  .footer-service {
+    padding: 0;
+    height: 60vh;
+  }
 }
-.h1-top{
-  padding: 50px 0 0 0;
-  /* padding-top: -200px; */
-}
-.par-top-sevice{
-  padding: 0;
-}
-.buttom-service{
-  height: 40vh;
-  margin: 0;
-  padding: 0;
-}
-.h1-bu-service{
-  padding: 100px 0 0 0;
-  margin: 0;
-}
-.h2-bu{
-  padding: 0;
-  margin: 0;
-}
-.footer-service{
-  padding: 0;
-  height: 60vh;
-}
-}
-@media (min-width: 300px) and (max-width: 600px){
-.top-service-1{
-  height: 64vh;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-.h1-top{
-  padding-top: 60px;
-  font-size: 60px;
-  padding-left: 30px;
-}
-.par-top-sevice{
-  font-size: 20px;
-  margin: 0;
-  padding: 10px 10px 0 30px;
-}
-.form-btn{
-  margin-top: -1px;
-  margin-left: 30px;
-}
-.buttom-service{
-  margin: 0;
-  padding: 0;
-  height: 40vh;
-}
-.h2-bu{
-  padding: 0 10px;
-  font-size: 18px;
-}
-.h1-bu-service{
-  padding-bottom: 10px;
-  padding-top: 60px;
-  font-size: 50px;
-}
-.footer-service{
-  padding: 0;
-  height: 78vh;
-}
+@media (min-width: 300px) and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+  .top-service-1 {
+    height: 64vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .h1-top {
+    padding-top: 60px;
+    font-size: 60px;
+    padding-left: 30px;
+  }
+  .par-top-sevice {
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 10px 0 30px;
+  }
+  .form-btn {
+    margin-top: -1px;
+    margin-left: 30px;
+  }
+  .buttom-service {
+    margin: 0;
+    padding: 0;
+    height: 40vh;
+  }
+  .h2-bu {
+    padding: 0 10px;
+    font-size: 18px;
+  }
+  .h1-bu-service {
+    padding-bottom: 10px;
+    padding-top: 60px;
+    font-size: 50px;
+  }
+  .footer-service {
+    padding: 0;
+    height: 78vh;
+  }
 }
