@@ -442,5 +442,237 @@ header{
 }
 /* ======Mobile=========== */
 @media (min-width: 300px) and (max-width: 600px){
+    body{
+        overflow-x: hidden;
+    }
+    .navbar ul {
+        font-size: 8px;
+        display: flex;
+        gap: 0px;
+        margin-right: 5px;
+        
+    }
+    .navbar .logo{
+        width: 50px;
+        margin-left: 5px;
+    }
+    
+}
 
+
+
+
+
+
+
+
+
+/* Base styles (Desktop) – already yours */
+
+/* Responsive for tablets */
+@media (max-width: 1024px) {
+  .h1-head {
+    font-size: 60px;
+    padding: 120px 200px 10px 40px;
+  }
+
+  .par-head {
+    font-size: 18px;
+    padding: 15px 40px;
+  }
+
+  .card-home {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .import-home {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card-bu {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Responsive for phones */
+@media (max-width: 768px) {
+  header {
+    height: auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .h1-head {
+    font-size: 40px;
+    padding: 60px 20px 10px 20px;
+  }
+
+  .par-head {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  .btn-head {
+    margin: 20px auto;
+    display: block;
+  }
+
+  .home-info {
+    height: auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .h1-info {
+    font-size: 28px;
+    padding: 40px 20px;
+  }
+
+  .par-info {
+    padding: 10px 20px;
+  }
+
+  .btn-info {
+    margin: 20px auto;
+    display: block;
+  }
+
+  .top-center {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .h1-left {
+    font-size: 32px;
+    padding: 20px;
+  }
+
+  .par-left {
+    padding: 0 20px 20px 20px;
+    font-size: 16px;
+  }
+
+  .card-home {
+    grid-template-columns: 1fr;
+  }
+
+  .import-home {
+    grid-template-columns: 1fr;
+  }
+
+  .import-left,
+  .import-center,
+  .import-right {
+    margin: 20px auto;
+    width: 90%;
+  }
+
+  .import-center-1,
+  .import-center-2,
+  .import-right-1,
+  .import-right-2 {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .buttom-home {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .h1-bu {
+    font-size: 32px;
+  }
+
+  .par-bu {
+    font-size: 18px;
+  }
+
+  .card-bu {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Extra small phones */
+@media (max-width: 600px) and (min-width: 300px) {
+  .h1-head {
+    font-size: 32px;
+    margin-left: -40px;
+  }
+
+  .par-head {
+    font-size: 14px;
+    margin-left: -25px;
+  }
+
+  .btn-head,
+  .btn-info,
+  .btn-info-1,
+  .btn-bu-1 {
+    font-size: 16px;
+    padding: 12px 30px;
+    margin-left:90px;
+  }
+  .import-center{
+    margin-left: 5px;
+    width: 400px;
+  }
+  .import-right{
+    margin-top: -60px;
+    background: none;
+    margin-left: 5px;
+    width: 500px;
+  }
+  .card-bu{
+    margin-left: 27px;
+    justify-content: center;
+  }
+  .card-bu-1{
+    margin-top: 20px;
+  }
+
+
+  .h1-info {
+    font-size: 24px;
+  }
+
+  .h1-left {
+    font-size: 28px;
+  }
+
+  .h1-bu {
+    font-size: 28px;
+  }
+ 
+  .icon{
+    display: flex;
+    gap: 35px;
+  }
+  .footer{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-left p{
+    width: 345px;
+    margin-left: -20px;
+  }
+  .center-footer-left{
+    width: 300px;
+  }
+  .center-footer-right{
+    background-color: #c08552;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .logo-footer{
+    margin-left: 100px;
+  }
+  section .copyright{
+    text-align: center;
+    padding: 10px;
+    margin-left: -180px;
+  }
 }
