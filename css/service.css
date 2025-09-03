@@ -21,12 +21,13 @@ body {
   background-image: url(../img/img-service/img-service-3.png);
 }
 .h1-top{
-  padding-top: 60px;
+  font-size: 80px;
+  padding-top: 0px;
 }
 .btn-top-4{
   margin-top: 30px;
   font-size: 20px;
-  padding: 18px;
+  padding: 16px;
   width: 180px;
   text-align: center;
   color: white;
@@ -37,7 +38,7 @@ body {
 .btn-top-3{
   margin-top: 30px;
   font-size: 20px;
-  padding: 18px;
+  padding: 16px;
   width: 180px;
   text-align: center;
   color: white;
@@ -205,9 +206,87 @@ h3 {
   background-image: url(../img/img-contact/img-contact-13.png);
 }
 .h1-bu-service{
+  margin-top: -50px;
   font-size: 80px;
   font-family: serif;
 }
 .h2-bu{
   font-family: Arial, Helvetica, sans-serif; 
+}
+.footer-service{
+  padding: 0px 50px;
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/img-footer/footer-3.png);
+}
+@media (min-width: 768px) and (max-width: 840px){
+.top-service-1{
+  height: 60vh;
+}
+.h1-top{
+  padding: 50px 0 0 0;
+  /* padding-top: -200px; */
+}
+.par-top-sevice{
+  padding: 0;
+}
+.buttom-service{
+  height: 40vh;
+  margin: 0;
+  padding: 0;
+}
+.h1-bu-service{
+  padding: 100px 0 0 0;
+  margin: 0;
+}
+.h2-bu{
+  padding: 0;
+  margin: 0;
+}
+.footer-service{
+  padding: 0;
+  height: 60vh;
+}
+}
+@media (min-width: 300px) and (max-width: 600px){
+.top-service-1{
+  height: 64vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.h1-top{
+  padding-top: 60px;
+  font-size: 60px;
+  padding-left: 30px;
+}
+.par-top-sevice{
+  font-size: 20px;
+  margin: 0;
+  padding: 10px 10px 0 30px;
+}
+.form-btn{
+  margin-top: -1px;
+  margin-left: 30px;
+}
+.buttom-service{
+  margin: 0;
+  padding: 0;
+  height: 40vh;
+}
+.h2-bu{
+  padding: 0 10px;
+  font-size: 18px;
+}
+.h1-bu-service{
+  padding-bottom: 10px;
+  padding-top: 60px;
+  font-size: 50px;
+}
+.footer-service{
+  padding: 0;
+  height: 78vh;
+}
 }
