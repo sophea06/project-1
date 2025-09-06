@@ -16,7 +16,7 @@ body {
   background-image: url(../img/img-about-team/img-our-5.png);
 }
 .h1-head {
-  margin-top: 120px;
+  margin-top: 100px;
   font-family: serif;
   font-size: 70px;
 }
@@ -308,7 +308,7 @@ body {
     /* background-position: center;
   background-repeat: no-repeat;
   background-size: cover; */
-    height: 60vh;
+    height: 55vh;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -320,7 +320,8 @@ body {
     font-size: 50px;
   }
   .par-head {
-    padding: 0 0px 0 50px;
+    font-size: 15px;
+    padding: 0 30px 0 50px;
   }
   .btn-head {
     margin-left: 50px;

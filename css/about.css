@@ -211,8 +211,8 @@ body{
     width: 100%;
 }
 .h1-head{
-    font-size: 70px;
-    padding-top: 220px;
+    font-size: 60px;
+    padding-top: 200px;
 }
 .par-head{
     font-size: 24px;
@@ -225,15 +225,16 @@ body{
     padding: 100px 0;
 }
 .info-shop-top{
-    margin: 0;
+    margin: 0 20px;
     padding: 0;
-   width: 95%;
-}
+    width: 95%;
+} 
 .img-info{
     padding: 90px 0 0 60px;
     margin: 0;
 }
 .par-info{
+    padding: 0;
     font-size: 20px;
 }
 .btn-info{
@@ -252,10 +253,13 @@ body{
     padding: 0;
 }
 .par-value{
+    padding: 0 0px 20px 20px;
     font-size: 20px;
 }
 .buttom-about{
-    /* height: 50vh; */
+
+    margin: 0;
+    width: 100%;
     padding-bottom: 100px;
 }
 .parent{
@@ -263,6 +267,7 @@ body{
     height: 50vh;
 }
 .img-bu{
+    width: 100%;
     height: 50vh;
 }
 .right-bu{
@@ -270,12 +275,15 @@ body{
     padding: 0;
 }
 .h1-bu{
+    padding-bottom: 20px;
+    padding-right: 20px;
     padding-top: -30px;
     padding-left: 30px;
-    font-size: 40px;
+    font-size: 30px;
 }
 .par-bu{
     margin: 0;
+    padding-right: 20px;
     font-size: 20px;
     padding-left: 30px;
 }
@@ -293,18 +301,24 @@ body{
     padding: 100px 0;
 }
 .left-history{
+    margin-right: 200px;
     padding-left: 50px;
 }
 }
 /* =========phone=========== */
 @media (min-width: 300px) and (max-width: 600px){
+    boby{
+        overflow-x: hidden;
+    }
 .header-1{
-    height: 64vh;
+    height: 55vh;
     margin: 0;
     padding: 0;
     width: 100%;
 }
 .par-head{ 
+    margin-right: 10px;
+    font-size: 15px;
     margin-left: 20px;
     padding: 0;
 }

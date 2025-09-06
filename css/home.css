@@ -325,13 +325,17 @@ header{
 
 /* =======header======== */
 header{
-    height: 70vh;
+    height: 60vh;
 }
 .h1-head{
     /* margin: 100px 0 0 0; */
     margin: 0;
-    padding: 300px 100px 0 80px;
+    padding: 220px 100px 10px 80px;
     font-size: 60px
+}
+.par-head{
+    line-height: 1.5em;
+    font-size: 30px;
 }
 /* ============home-info=========== */
 .home-info{
@@ -460,12 +464,12 @@ header{
   }
 
   .h1-head {
-    font-size: 50px;
+    font-size: 40px;
     padding: 30px 10px 15px 10px;
   }
 
   .par-head {
-    font-size: 20px;
+    font-size: 15px;
     padding: 5px 10px;
   }
 

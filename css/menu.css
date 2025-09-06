@@ -49,13 +49,16 @@
     padding: 16px;
     border: none;
 }
-.btn-top-1:hover{
-  background-color: #e36414;
+
+.btn-top-1:hover {
+    background-color: #e36414;
 }
-.btn-top-2:hover{
-  background-color: #db7c26;
+
+.btn-top-2:hover {
+    background-color: #db7c26;
 
 }
+
 .menu {
     padding: 5rem 0;
     background: #ffffff;
@@ -116,22 +119,29 @@
 }
 
 @media (min-width: 768px) and (max-width: 840px) {
-    .top-menu{
+    .top-menu {
         margin: 0;
         padding: 0;
         height: 60vh;
     }
-    .h1-top-menu{
+
+    .h1-top-menu {
         font-size: 80px;
         padding-left: 90px;
-        padding-top: 150px;
+        padding-top: 100px;
     }
-    .par-top-menu{
+
+    .par-top-menu {
+        font-size: 30px;
+        padding: 0 20px 0 90px;
+        margin: 0;
+        /* padding-left: 90px; */
+    }
+
+    .form-btn-menu {
         padding-left: 90px;
     }
-    .form-btn-menu{
-        padding-left: 90px;
-    }
+
     .footer {
         padding: 30px 50px;
         height: 50vh;
@@ -162,26 +172,36 @@
 }
 
 @media (min-width: 300px) and (max-width: 600px) {
-.top-menu{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 64vh;
-}
-.par-top-menu{
-    /* color: #db7c26; */
-    padding-bottom: 20px;
-    margin-top: -20px;
-    padding-left: 30px;
-    padding-right: 10px;
-}
-.h1-top-menu{
-    font-size: 50px;
-    padding-top: 50px;
-    padding-left: 30px;
-}
-.form-btn-menu{
-    margin-top: -1px;
-    padding-left: 30px;
-}
+    body {
+        overflow-x: hidden;
+    }
+
+    .top-menu {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 55vh;
+    }
+
+    .par-top-menu {
+        font-size: 15px;
+        /* color: #db7c26; */
+        padding-bottom: 20px;
+        margin-top: -20px;
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+
+    .h1-top-menu {
+        font-size: 50px;
+        padding-top: 40px;
+        padding-left: 30px;
+    }
+    .form-btn-menu {
+        margin-top: 70px;
+        margin-left: -200px;
+        width: 60%;
+        /* margin-top: -1px; */
+        /* padding-left: 30px; */
+    }
 }
