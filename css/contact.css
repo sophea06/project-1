@@ -3,6 +3,7 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -11,6 +12,7 @@
     "app-contact"
     "grid-footer";
 }
+
 .top-contact {
   height: 70vh;
   padding: 100px;
@@ -23,12 +25,14 @@
   background-repeat: no-repeat;
   grid-area: top-contact;
 }
+
 .h1-top {
   margin-top: 50px;
   font-size: 70px;
   /* padding-top: 30px; */
   font-family: serif;
 }
+
 .par-top {
   margin-top: -10px;
   line-height: 1.5em;
@@ -36,11 +40,13 @@
   font-weight: bold;
   font-size: 20px;
 }
+
 .form-btn {
   margin-bottom: 50px;
   display: flex;
   gap: 10px;
 }
+
 .btn-top {
   font-size: 16px;
   font-weight: bold;
@@ -51,22 +57,27 @@
   padding: 16px;
   border: none;
 }
+
 .btn-top-1 {
   color: white;
   background-color: #cd7f32;
 }
+
 .btn-top-2 {
   border: 2px solid orange;
   color: white;
   background-color: rgba(0, 0, 0, 0.664);
 }
-.btn-top-1:hover{
+
+.btn-top-1:hover {
   background-color: #e36414;
 }
-.btn-top-2:hover{
+
+.btn-top-2:hover {
   background-color: #db7c26;
 
 }
+
 .app-contact {
   margin: 0px 100px 100px 100px;
   display: grid;
@@ -75,7 +86,8 @@
     "head-contact head-contact head-contact"
     "address phone email";
 }
-.app-contact > div {
+
+.app-contact>div {
   line-height: 1.5em;
   text-align: center;
   width: 100%;
@@ -84,9 +96,11 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .head-app {
   padding: 15px;
 }
+
 .head-contact {
   font-family: serif;
   padding: 80px;
@@ -94,42 +108,51 @@
   text-align: center;
   grid-area: head-contact;
 }
+
 .address {
   display: flex;
   flex-direction: column;
   /* background: #000; */
   grid-area: address;
 }
+
 .bxs-map-1 {
   color: #cd7f32;
   font-size: 40px;
 }
+
 .phone {
   grid-area: phone;
 }
+
 .bxs-phone-1 {
   color: #cd7f32;
   font-size: 40px;
 }
+
 .email {
   width: 300px;
   grid-area: email;
 }
+
 .bx-envelope-1 {
   color: #cd7f32;
   font-size: 40px;
 }
+
 .grid-footer {
   margin: 0 100px 100px 100px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas: "form location";
 }
+
 .form {
   font-weight: bold;
   width: 100%;
   grid-area: form;
 }
+
 .info-user {
   border-radius: 10px;
   outline: none;
@@ -141,15 +164,19 @@
   width: 85%;
   height: 5vh;
 }
+
 .info-user:focus {
-  background: #fff; /* optional: go white on focus */
-  box-shadow: 0 0 0 4px rgba(245, 158, 11, 0.25); /* soft focus ring */
+  background: #fff;
+  /* optional: go white on focus */
+  box-shadow: 0 0 0 4px rgba(245, 158, 11, 0.25);
+  /* soft focus ring */
 }
 
 .info-user:hover {
   border-radius: 5px;
   border: 1px solid #cd803271;
 }
+
 textarea {
   border-radius: 10px;
   outline: none;
@@ -158,14 +185,19 @@ textarea {
   width: 85%;
   padding: 20px;
 }
+
 textarea:focus {
-  background: #fff; /* optional: go white on focus */
-  box-shadow: 0 0 0 5px rgba(245, 158, 11, 0.25); /* soft focus ring */
+  background: #fff;
+  /* optional: go white on focus */
+  box-shadow: 0 0 0 5px rgba(245, 158, 11, 0.25);
+  /* soft focus ring */
 }
+
 textarea:hover {
   border-radius: 5px;
   border: 1px solid #cd803271;
 }
+
 .btn-seen {
   width: 180px;
   font-size: 16px;
@@ -179,13 +211,16 @@ textarea:hover {
   padding: 15px 0;
   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
 }
+
 .btn-seen:hover {
   border: none;
   background: #cd7f32;
 }
+
 .map {
   border-radius: 12px;
 }
+
 .location {
   border-radius: 12px;
   background-color: none;
@@ -194,6 +229,7 @@ textarea:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   grid-area: location;
 }
+
 .buttom-contact {
   padding: 200px;
   text-align: center;
@@ -204,6 +240,7 @@ textarea:hover {
   background-size: cover;
   background-image: url(../img/img-contact/img-contact-13.png);
 }
+
 .h1-contact {
   font-family: serif;
   font-size: 80px;
@@ -212,39 +249,8 @@ textarea:hover {
 
 /* ======template======== */
 
-@media (min-width: 768px) and (max-width: 840px) {
-  .buttom-contact {
-    height: 20vh;
-    margin: 0;
-    padding: 100px 0 80px 0;
-  }
-  .top-contact{
-    width: 100%;
-    padding: 0 100px;
-    margin: 0;
-    height: 60vh;
-  }
-  .h1-top{
-    font-size: 60px;
-  }
-}
 
 /* ======Mobile Phone====== */
-
-@media (min-width: 300px) and (max-width: 600px) {
-  .buttom-contact {
-    height: 20vh;
-    margin: 0;
-    padding: 100px 10px 80px 10px;
-  }
-  .h1-contact {
-    font-size: 50px;
-  }
-  .h2-buttom-contact {
-    line-height: 1.5em;
-    font-size: 18px;
-  }
-}
 
 @media (min-width: 300px) and (max-width: 600px) {
   .grid-container {
@@ -257,8 +263,8 @@ textarea:hover {
     gap: -10px;
   }
 
-  .app-contact > div {
-    font-size: 8px;
+  .app-contact>div {
+    /* font-size: 8px; */
     display: flex;
     padding: 0px;
   }
@@ -279,33 +285,39 @@ textarea:hover {
   .par-top {
     /* padding-top: -200px; */
     padding: 0;
-    margin: -200px 100px 0 230px ;
+    margin: -200px 100px 0 230px;
     line-height: 1.5em;
     font-size: 15px;
   }
-  .btn-top-1{
+
+  .btn-top-1 {
     margin-top: -60px;
     margin-left: 230px;
     grid-area: btn-top-1;
   }
-  .btn-top-2{
+
+  .btn-top-2 {
     margin-top: -60px;
     margin-left: -0px;
     grid-area: btn-top-2;
   }
-  .form-btn{
+
+  .form-btn {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "btn-top-1 btn-top-2";
   }
+
   .grid-footer {
     display: flex;
     flex-wrap: wrap;
   }
+
   .form {
     width: 323px;
     margin-left: 130px;
   }
+
   .form-message {
     width: 100%;
     display: flex;
@@ -313,6 +325,7 @@ textarea:hover {
     align-items: center;
     margin-bottom: 30px;
   }
+
   .app-contact {
     margin: 50px 0 50px 100px;
     padding: 0;
@@ -325,20 +338,24 @@ textarea:hover {
       "head-contact"
       "address"
       "phone"
-       "email";
+      "email";
   }
-  .head-contact-1{
+
+  .head-contact-1 {
     margin: 0;
     padding: 0;
     font-size: 50px;
     grid-area: head-contact;
   }
-  .head-app{
+
+  .head-app {
     font-size: 20px;
   }
-  .par-app{
+
+  .par-app {
     font-size: 15px;
   }
+
   /* .app-contact > .address {
     text-align: center;
     width: 100%;
@@ -387,59 +404,104 @@ textarea:hover {
     width: 180px;
     font-size: 15px;
   }
-  .location{
+
+  .location {
     margin-left: 120px;
     padding: 0;
   }
-  .map{
+
+  .map {
     width: 390px;
   }
+
   .buttom-service {
     margin: 0;
     padding: 0;
     height: 40vh;
   }
+
   .h2-contact {
     padding: 0 10px;
     font-size: 18px;
   }
-    .h1-contact {
+
+  .h1-contact {
     padding-bottom: 10px;
     font-size: 50px;
+  }
+
+  .buttom-contact {
+    height: 20vh;
+    margin: 0;
+    padding: 100px 10px 80px 10px;
+  }
+
+  .h1-contact {
+    font-size: 50px;
+  }
+
+  .h2-buttom-contact {
+    line-height: 1.5em;
+    font-size: 18px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 840px) {
+  .buttom-contact {
+    height: 20vh;
+    margin: 0;
+    padding: 100px 0 80px 0;
+  }
+
+  .top-contact {
+    width: 100%;
+    padding: 0 100px;
+    margin: 0;
+    height: 60vh;
+  }
+
+  .h1-top {
+    font-size: 60px;
+  }
+
   body {
     overflow-x: hidden;
   }
+
   .form {
     width: 500px;
   }
+
   .grid-footer {
     display: flex;
     gap: 30px;
     width: 200px;
   }
+
   .app-contact {
     margin-left: 10px;
   }
+
   .grid-container {
     margin-left: -60px;
   }
-  .top-contact{
+
+  .top-contact {
     height: 60vh;
   }
-  .h1-top{
+
+  .h1-top {
     padding-bottom: 90px;
     padding-top: 90px;
     font-size: 60px;
   }
-  .form-btn{
+
+  .form-btn {
     margin-bottom: 100px;
     /* margin-top: -50px; */
   }
-  .par-top-1{
+
+  .par-top-1 {
     /* width: 300px; */
     margin-top: -80px;
     /* margin-bottom: -150px; */
@@ -456,47 +518,57 @@ textarea:hover {
       "head-contact head-contact head-contact"
       "address phone email";
   }
-  .address{
+
+  .address {
     margin-left: 90px;
   }
-  .phone{
+
+  .phone {
     margin-left: 60px;
   }
-  .grid-footer{
+
+  .grid-footer {
     margin: 0 0 100px 100px;
     padding: 0;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-areas: 
-    "form"
-    "location";
+    grid-template-areas:
+      "form"
+      "location";
   }
-  .form{
+
+  .form {
     width: 100%;
     margin: 0;
     padding: 0;
   }
-  textarea{
+
+  textarea {
     width: 95%;
     font-size: 20px;
   }
-  .info-user{
+
+  .info-user {
     font-size: 20px;
     width: 95%;
   }
-  .btn-seen{
+
+  .btn-seen {
     padding: 20px 0;
     font-size: 20px;
     width: 100%;
   }
-  .location{
+
+  .location {
     margin: 0;
     padding: 0;
   }
-  .map{
+
+  .map {
     width: 750px;
 
   }
+
   /* .app-contact > .address {
     text-align: center;
     width: 90%;
